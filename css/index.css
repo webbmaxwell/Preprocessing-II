@@ -206,18 +206,19 @@ img {
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.home .content-section header {
+.home .introP {
   padding: 20px 0px;
+  border-bottom: 2px dashed #C0C0C0;
 }
-.home .content-section .text-content {
+.home .text-content {
   width: 48%;
   padding-right: 1%;
 }
-.home .content-section .img-content {
+.home .img-content {
   width: 48%;
   padding-left: 1%;
 }
-.home .content-section .img-content img {
+.home .img-content img {
   border-radius: 10px;
 }
 .home .inverse-content {
@@ -248,4 +249,12 @@ img {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+.home .btn {
+  padding: 12px 20px;
+  background-color: teal;
+  color: white;
+  text-align: center;
+  border-radius: 15px;
+  font-size: 2em;
 }
