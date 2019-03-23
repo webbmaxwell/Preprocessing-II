@@ -220,6 +220,13 @@ img {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+@media (max-width: 500px) {
+  .home .content-section {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .home .introP {
   padding: 20px 0px;
   border-bottom: 2px dashed #C0C0C0;
@@ -246,6 +253,11 @@ img {
 .home .inverse-content .img-content {
   padding-right: 1%;
   padding-left: 0;
+}
+@media (max-width: 500px) {
+  .home .inverse-content .img-content {
+    order: 8;
+  }
 }
 .home .content-destination {
   width: 75%;
